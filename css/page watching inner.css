@@ -1,0 +1,287 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	background-color: rgb(24 24 24);
+}
+header{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	background-color: #252525;
+	padding: 1px;
+	overflow: hidden;
+	z-index: 2
+}
+.div{
+	display: inline-block;
+}
+.logo{
+	display: inline-block;
+	float: left;
+	width: 10%;
+	height: 70px;
+	overflow: hidden;
+	padding: 7px;
+	margin-left: 2%;
+}
+.logo >img{
+	width: 110px;
+	height: 55px
+}
+.sersh{
+	width: 45%;
+	position: relative;
+	margin: 1.5% auto 0 auto;
+	border: 1px solid rgb(55 54 53)
+}
+.sersh > input{
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(18 18 18);
+    border: none;
+    color: #fff
+}
+.sersh > button{
+    width: 20%;
+    height: 30px;
+    margin-left: -1%;
+    background-color: rgb(55 54 53);
+    border: none;
+    color: #DDD;
+    opacity: .7;
+}
+button > i{
+	font-size: 15px
+}
+.login{
+	float: right;
+	margin-top: -2.4% 
+}
+.login > button{
+	width: 105px;
+	height: 30px;
+	background: none;
+	border: 2px solid #3498DB;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 8px;
+	margin-right: 10px;
+	transition: all .2s ease-in
+}
+.login > button:hover{
+	background-color: rgb(52 152 219 / 38%)
+}
+.list-icon{
+	float: left;
+	width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    overflow: hidden;
+    text-align: center;
+    margin: 0.7%;
+    transition: all .2s ease-in;
+    margin: 0.7% 0 0 1%
+}
+.list-icon > i{
+	font-size: 25px;
+	line-height: 2;
+	color: #DDD 
+}
+.list-icon:active{
+	background-color: rgb(255 255 255 / 29%)
+}
+/* The Selector for all the elements in the header */
+
+/* Start the list one style */
+.list-one{
+    position: fixed;
+    height: 90%;
+    width: 6%;
+    margin: 1.2% 0 0 0;
+    overflow: hidden;
+    background-color: #252525;
+}
+.items{
+	width: 100%;
+	height: 100%;
+	margin-top: 20%
+}
+.items-list{
+	width: 100%;
+	height: 13%;
+	overflow: hidden;
+	text-align: center;
+	transition: all .2s ease-in;
+	margin-top: 40%;
+}
+.items-icon{
+	height: 50%;
+	width: 100%;
+	text-align: center;
+	margin-top: 7%;
+}
+.items-icon > i{
+	color: #DDD;
+	font-size: 32px 
+}
+.items-list > p{
+	color: #DDD;
+	line-height: 0;
+	font-size: 19px;
+}
+.items-list:hover{
+	background-color: rgb(255 255 255 / 21%)
+}
+/* The list two */
+.list-two{
+	position: fixed;
+    height: 90%;
+    width: 20%;
+    margin: 1.2% 0 0 0;
+    overflow: hidden;
+    background-color: #252525;
+    display: none;
+    z-index: 2
+}
+.items-two{
+	width: 100%;
+	height: 100%;
+}
+.items-list-two{
+	width: 100%;
+	height: 10%;
+	overflow: hidden;
+	transition: all .2s ease-in;
+}
+.items-icon-two{
+	float: left;
+	width: 25%;
+	margin-left: 4%;
+}
+.items-icon-two > i{
+	font-size: 30px;
+    line-height: 2;
+	color: rgb(208 208 208);
+	transition: all 1s ease-out; 
+}
+.items-list-two > p{
+	color: rgb(208 208 208);
+	font-size: 18px;
+	line-height: 1.4
+}
+a{
+	text-decoration: none
+}
+#download{
+	border-bottom: 1px solid #DDD
+}
+#historic{
+	border-bottom: 1px solid #DDD
+}
+#later i:hover{
+	transform: rotate(360deg);
+}
+#historic i:hover{
+	transform: rotate(-360deg);
+}
+.items-list-two:hover{
+	background-color: rgb(255 255 255 / 21%)
+}
+/* End the header */
+
+/* Start the style for the section */
+section{
+	position: relative;
+    width: 93%;
+    height: 1000px;
+    margin: 6% 0 0 7%;
+    display: inline-block;
+    overflow: hidden;
+}
+/* Start the video box */
+.box-video{
+	width: 74%;
+	position: relative;
+	height: 47%;
+	margin: 1%;
+	overflow: hidden;
+}
+.video{
+	height: 85%;
+	width: 100%;
+	background-color: #000
+}
+.video-inner{
+	height: 15%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.box-video  p{
+	color: #DDD
+}
+.box-video h1{
+    display: inline-block;
+    margin: -10% 0 0 2%;
+    font-size: 14px;
+    color: rgb(156 156 156 / 85%);
+}
+.video-icon{
+    float: right;
+    position: relative;
+    width: 35%;
+    height: 60%;
+    overflow: hidden;
+    margin: -2.5% 0 0 0;
+}
+.box-icon{
+	display: inline-block;
+	margin: 0 5% 0 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align:center;
+	transition: all .2s ease-in
+}
+.box-icon > i{
+    font-size: 22px;
+    line-height: 1.8;
+    color: #DDD
+}
+.box-icon:active{
+	background-color: rgb(221 221 221 / 25%)
+}
+/* End the ***** video */
+.more{
+    width: 23%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(16 16 16);
+    right: 1%;
+    top: 1.3%;
+    overflow: hidden;
+}
+.more-inner{
+    height: 20%;
+    width: 85%;
+    position: relative;
+    margin: 7%;
+}
+.more-images{
+	height: 70%;
+	width: 100%;
+	overflow: hidden;
+}
+.more-images img{
+	height: 100%;
+	width: 100%;
+}
+.more-inner p{
+    color: rgb(221 221 221);
+    font-size: 11px;
+}
